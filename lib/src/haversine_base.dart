@@ -58,6 +58,7 @@ class Haversine {
     double lat2 = this.latitude2;
     double lon2 = this.longitude2;
 
+    // For the WGS 84 ellipsoid, the mean curvature equals 6,370.994 km (3,958.752 mi).
     var EarthRadius = 6378137.0; // WGS84 major axis
     double distance = 2 *
         EarthRadius *
